@@ -1,0 +1,29 @@
+/* box model hacks not catered for in the demo */
+/* global reset for demo purposes only - use a proper reset in a real page*/
+*{margin:0;padding:0}
+p{margin:0 0 .5em 0}
+h1{margin:1em 0;text-align:center}
+#catlist{
+    border:1px solid #e3e3e3;
+    border-radius: 4px;  
+    width: 800px;
+    margin:10px auto;
+}
+#catlist dl{
+    max-width:780px;
+    margin:5px auto;    
+    padding:10px;
+    overflow:hidden;
+    background:#f2f2f2;
+}
+#catlist dd{overflow:auto}
+#catlist dt strong{
+    float:right;
+    padding:0 0 0 20px;
+}
+#catlist dt dm{
+    float:left;
+    margin:0 10px 0 0;
+    border:1px solid #000;
+}
+* html dd{height:1%}/* 3px jog*/
